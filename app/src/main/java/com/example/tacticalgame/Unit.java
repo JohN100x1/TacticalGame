@@ -1,10 +1,14 @@
 package com.example.tacticalgame;
 
+import android.widget.ImageView;
+
 public class Unit {
-    private int x;
-    private int y;
-    public Unit(int x, int y){
-        this.x = x;
-        this.y = y;
+    private int drawableImage;
+    public Unit(int drawableImage){
+        this.drawableImage = drawableImage;
+    }
+
+    public int getDrawableImage() {
+        return drawableImage;
     }
 }
